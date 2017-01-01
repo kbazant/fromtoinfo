@@ -1,0 +1,12 @@
+/*
+Theme Name: Storefront Child
+Theme URI: http://www.fromtoinfo.com/
+Description: This is a child theme of Storefront
+Author: K Bazant
+Author URI: http://www.kbazant.com/
+Template: storefront
+Version: 0.1
+*/
+@import url("../storefront/style.css");
+
+/* CUSTOM CSS BELOW */
