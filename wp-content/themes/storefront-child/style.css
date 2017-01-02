@@ -10,3 +10,6 @@ Version: 0.1
 @import url("../storefront/style.css");
 
 /* CUSTOM CSS BELOW */
+
+h1.entry-title {display: none;}
+

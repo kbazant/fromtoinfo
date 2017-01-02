@@ -10,3 +10,7 @@ Version: 0.1
 @import url("../twentyseventeen/style.css");
 
 /* CUSTOM CSS BELOW */
+
+h1 {
+	color: red;
+}
