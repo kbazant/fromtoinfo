@@ -7,9 +7,39 @@ Author URI: http://www.kbazant.com/
 Template: storefront
 Version: 0.1
 */
+
 @import url("../storefront/style.css");
 
 /* CUSTOM CSS BELOW */
 
-h1.entry-title {display: none;}
 
+/*hide page title*/
+
+h1.entry-title {
+	display: none;
+}
+
+.custom-logo img {
+	display: block;
+	margin: 0 auto;
+	height: 100px;
+}
+
+.site-header .site-branding {
+	display: block;
+	margin: 0 auto;
+	max-height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+	.site-branding {
+		text-align: center;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+}
+
+.site-header .site-branding img {
+	max-width: 50px;
+	max-height: 50px;
+}
