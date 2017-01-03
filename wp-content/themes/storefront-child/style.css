@@ -43,3 +43,11 @@ h1.entry-title {
 	max-width: 50px;
 	max-height: 50px;
 }
+
+.site-header {
+	background-color: #fff;
+}
+
+.storefront-primary-navigation {
+	display: none;
+}
